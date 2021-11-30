@@ -6,6 +6,6 @@ const apiRouter = require('./routers/apiRouter')
 
 
 router.use('/users', userRouter)
-router.use('api',apiRouter)
+router.use('/api',apiRouter)
 
 module.exports = router
